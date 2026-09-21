@@ -90,9 +90,72 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: 'nova-heights',
+    slug: 'nova-heights',
+    number: '03',
+    title: 'NOVA HEIGHTS',
+    subtitle: 'Immersive 3D Real Estate Experience',
+    category: 'Immersive 3D Real Estate Experience',
+    tagline: 'Cinematic 3D Architectural Real-Estate Experience',
+    client: 'Fictional Architectural Showcase',
+    year: '2025',
+    coverImage: '/projects/nova-heights/cover.jpg',
+    heroImage: '/projects/nova-heights/cover.jpg',
+    description: 'Immersive 3D architectural experience featuring cinematic scroll storytelling, interactive room exploration, material switching, floor plans, and a private viewing experience.',
+    concept: {
+      title: 'Cinematic Architectural Visualization & Interactive Exploration',
+      text: 'Built as an architectural visualization and fictional real-estate experience to demonstrate advanced 3D web capabilities. Features a cinematic scroll-driven building reveal, interactive room exploration, material switching, 3D architectural hotspots, interactive floor plans, responsive layouts, and a private viewing enquiry experience.',
+      details: [
+        'Cinematic scroll-driven camera storytelling revealing architectural volumes',
+        'Interactive 3D room & material explorer powered by Three.js, React Three Fiber, and Drei',
+        'Architectural 3D hotspots and interactive floor plan switching',
+        'Responsive WebGL experience with graceful fallbacks and reduced-motion support',
+        'Private viewing enquiry experience built with React Hook Form and Zod'
+      ]
+    },
+    techStack: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Three.js',
+      'React Three Fiber',
+      'Drei',
+      'Tailwind CSS',
+      'Framer Motion',
+      'React Hook Form',
+      'Zod'
+    ],
+    features: [
+      'Cinematic 3D Hero',
+      'Scroll Camera Storytelling',
+      'Interactive Room Explorer',
+      'Material Explorer',
+      '3D Architectural Hotspots',
+      'Interactive Floor Plans',
+      'Architectural Gallery',
+      'Private Viewing Form',
+      'Responsive WebGL Experience',
+      'WebGL Fallback',
+      'Accessibility & Reduced-Motion Support'
+    ],
+    liveUrl: 'https://nova-heights.vercel.app/',
+    githubUrl: 'https://github.com/yashkhanapure18/NOVA-HEIGHTS',
+    caseStudyUrl: '/work/nova-heights',
+    metrics: [
+      { label: '3D Engine', value: 'R3F & Three.js', description: 'Real-time WebGL rendering' },
+      { label: 'Interactivity', value: '8+ Features', description: 'Rooms, materials, hotspots & floor plans' },
+      { label: 'Performance', value: '60 FPS', description: 'Responsive WebGL & fallback support' }
+    ],
+    gallery: [
+      { url: '/projects/nova-heights/cover.jpg', caption: 'NOVA HEIGHTS — Cinematic 3D Architectural Hero' },
+      { url: '/projects/nova-heights/detail.jpg', caption: 'NOVA HEIGHTS — Interactive Room & Material Explorer' }
+    ],
+    featured: true,
+  },
+  {
     id: 'aether-ai',
     slug: 'aether-ai',
-    number: '03',
+    number: '04',
     title: 'AETHER AI STUDIO',
     subtitle: 'Spatial AI Platform Interface',
     category: 'Product & WebGL Interface',
@@ -133,7 +196,7 @@ export const projects: Project[] = [
   {
     id: 'chronos-watch',
     slug: 'chronos-watch',
-    number: '04',
+    number: '05',
     title: 'CHRONOS CONFIGURATOR',
     subtitle: '3D E-Commerce Timepiece Engine',
     category: '3D E-Commerce Showcase',

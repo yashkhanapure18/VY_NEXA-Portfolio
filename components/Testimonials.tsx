@@ -48,7 +48,7 @@ export default function Testimonials() {
               className="space-y-6"
             >
               <p className="text-base sm:text-xl text-[#F2F1ED] font-light italic leading-relaxed">
-                "{current.text}"
+                &ldquo;{current.text}&rdquo;
               </p>
 
               <div className="flex items-center justify-between pt-6 border-t border-white/10">

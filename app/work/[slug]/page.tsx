@@ -68,7 +68,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
 
             {project.tagline && (
               <p className="text-lg text-accent-amber font-mono italic">
-                "{project.tagline}"
+                &ldquo;{project.tagline}&rdquo;
               </p>
             )}
 
